@@ -4,7 +4,6 @@ import ExpenseItem from './ExpenseItem'
 import { MdDelete } from 'react-icons/md'
 
 const ExpenseList = ({handleDelete,initialExpenses}) => {
-    console.log(this.props.initialExpenses)
     return (
       <div>
         <ul className='list'>

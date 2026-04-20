@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import "./ExpenseItem.css"
 import { MdEdit,MdDelete } from 'react-icons/md'
 const  ExpenseItem = ({expense,handleDelete}) => {
